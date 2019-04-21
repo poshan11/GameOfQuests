@@ -1,4 +1,4 @@
-# GameOfTreasures
+# Game Of Quests
 An interactive treasure hunt on your phone, inspired by PokemonGo. Solve puzzles and unlock new destinations in your trail path!
 
 # TechStack
