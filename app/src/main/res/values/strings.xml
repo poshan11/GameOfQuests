@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BeachHackHunt</string>
+    <string name="title_activity_hunt_maps">Map</string>
+</resources>

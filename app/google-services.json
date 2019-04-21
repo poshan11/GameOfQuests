@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "498629695298",
+    "firebase_url": "https://beachhackhunt.firebaseio.com",
+    "project_id": "beachhackhunt",
+    "storage_bucket": "beachhackhunt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498629695298:android:8bbc3a9034b29b7c",
+        "android_client_info": {
+          "package_name": "com.example.aksha.beachhackhunt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498629695298-u6gh7v791te0m9i008sdonf4g3hj5flq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aksha.beachhackhunt",
+            "certificate_hash": "4e8a01efea7dec36b2a7af3e478285534ea9ea86"
+          }
+        },
+        {
+          "client_id": "498629695298-qc9ou64vcqgaq6j5r7iunoetquun9rfr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5k4gzo1Y-j_YB0fuvGeOJTWLyStp7Dhg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "498629695298-qc9ou64vcqgaq6j5r7iunoetquun9rfr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
