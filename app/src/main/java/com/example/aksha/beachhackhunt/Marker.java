@@ -10,6 +10,24 @@ public class Marker {
     private String soln;
     private String title;
     private String isFinal;
+    private boolean isVisible = false;
+    private boolean isMultimedia;
+
+    public boolean isMultimedia() {
+        return isMultimedia;
+    }
+
+    public void setMultimedia(boolean multimedia) {
+        isMultimedia = multimedia;
+    }
+
+    public boolean isVisible() {
+        return isVisible;
+    }
+
+    public void setVisible(boolean visible) {
+        isVisible = visible;
+    }
 
     public String getIsFinal() {
         return isFinal;

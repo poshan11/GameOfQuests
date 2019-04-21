@@ -16,21 +16,21 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        buttonNewCampaign = findViewById(R.id.createNewButton);
+//        buttonNewCampaign = findViewById(R.id.createNewButton);
         buttonJoinCampaign = findViewById(R.id.joinCampButton);
 
-        buttonNewCampaign.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, NewCampaignPage.class);
-                startActivity(intent);
-            }
-        });
+//        buttonNewCampaign.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(MainActivity.this, NewCampaignPage.class);
+//                startActivity(intent);
+//            }
+//        });
 
         buttonJoinCampaign.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, huntMapsActivity.class);
+                Intent intent = new Intent(MainActivity.this, ListActivity.class);
                 startActivity(intent);
             }
         });

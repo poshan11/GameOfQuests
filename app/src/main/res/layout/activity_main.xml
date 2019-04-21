@@ -3,30 +3,33 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/createNewButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="140dp"
-        android:text="Create New Campaign"
-        tools:layout_editor_absoluteX="90dp"
-        tools:layout_editor_absoluteY="121dp" />
 
     <Button
         android:id="@+id/joinCampButton"
-        android:layout_width="wrap_content"
+        android:layout_width="145dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="192dp"
-        android:text="Join A Campaign"
-        tools:layout_editor_absoluteX="105dp"
-        tools:layout_editor_absoluteY="260dp" />
+        android:layout_marginBottom="23dp"
+        android:background="@drawable/rounded_buttons2"
+        android:fontFamily="cursive"
+        android:text="Play"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/fourth" />
+
 
 </RelativeLayout>

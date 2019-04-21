@@ -3,4 +3,7 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="aubergine">#614051</color>
+    <color name="coral">#005377</color>
+    <color name="newColor">#06a77d</color>
 </resources>
