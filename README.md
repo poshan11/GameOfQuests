@@ -11,5 +11,5 @@ An interactive treasure hunt on your phone, inspired by PokemonGo. Solve puzzles
 - SnapKit SDK
 
 # Project Scope
-Location based marketing, targeted ads for users 
+Location based marketing, targeted ads for users &
 Unique Promotional Campaigns for partner brands
